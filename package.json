@@ -1,0 +1,21 @@
+{
+  "name": "simple-calculator-starter",
+  "version": "1.0.0",
+  "description": "이 폴더는 **거의 비어 있습니다**. 핸드아웃을 따라가면서 한 단계씩 채워가게 됩니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOON0021/simple-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YOON0021/simple-calculator/issues"
+  },
+  "homepage": "https://github.com/YOON0021/simple-calculator#readme"
+}
