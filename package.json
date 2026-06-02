@@ -1,21 +1,15 @@
 {
-  "name": "simple-calculator-starter",
+  "name": "simple-calculator",
   "version": "1.0.0",
-  "description": "이 폴더는 **거의 비어 있습니다**. 핸드아웃을 따라가면서 한 단계씩 채워가게 됩니다.",
-  "main": "index.js",
+  "description": "GitHub Actions CI/CD 학습용 계산기",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server src -p 8080 -c-1",
+    "lint": "eslint src tests/unit tests/integration",
+    "audit": "npm audit --audit-level=high",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YOON0021/simple-calculator.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/YOON0021/simple-calculator/issues"
-  },
-  "homepage": "https://github.com/YOON0021/simple-calculator#readme"
+  "devDependencies": { "...": "npm install이 자동으로 채움" }
 }
